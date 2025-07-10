@@ -44,7 +44,14 @@ const Layout = ({ children }: LayoutProps) => {
     <div className="min-h-screen bg-gray-50">
       {/* Mobile menu button */}
       <div className="lg:hidden bg-white shadow-sm p-4 flex justify-between items-center">
-        <h1 className="text-xl font-semibold">Awanvisual POS (DEMO)</h1>
+        <div className="flex items-center space-x-2">
+          <img 
+            src="/favicon.ico" 
+            alt="Awanvisual Logo" 
+            className="w-6 h-6"
+          />
+          <h1 className="text-xl font-semibold">Awanvisual POS (DEMO)</h1>
+        </div>
         <Button
           variant="ghost"
           size="sm"
@@ -64,9 +71,18 @@ const Layout = ({ children }: LayoutProps) => {
         >
           <div className="flex flex-col h-full">
             <div className="p-6 border-b">
-              <h1 className="text-xl font-bold text-gray-900">
-                Awanvisual POS
-              </h1>
+              <div className="flex items-center space-x-3">
+                <img 
+                  src="/favicon.ico" 
+                  alt="Awanvisual Logo" 
+                  className="w-8 h-8"
+                />
+                <div>
+                  <h1 className="text-xl font-bold text-gray-900">
+                    Awanvisual POS
+                  </h1>
+                </div>
+              </div>
               <p className="text-sm text-gray-500 capitalize">
                 {userRole} Portal
               </p>

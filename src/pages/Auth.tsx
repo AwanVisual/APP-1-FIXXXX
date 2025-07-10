@@ -64,7 +64,7 @@ const Auth = () => {
             <img 
               src="/favicon.ico" 
               alt="Awanvisual Logo" 
-              className="w-12 h-12"
+              className="w-20 h-20"
             />
           </div>
           <CardTitle className="text-2xl font-bold">

@@ -81,11 +81,11 @@ const Layout = ({ children }: LayoutProps) => {
                   <h1 className="text-xl font-bold text-gray-900">
                     Awanvisual POS
                   </h1>
+                  <p className="text-sm text-gray-500 capitalize">
+                    {userRole} Portal
+                  </p>
                 </div>
               </div>
-              <p className="text-sm text-gray-500 capitalize">
-                {userRole} Portal
-              </p>
             </div>
 
             <nav className="flex-1 p-4 space-y-2">
